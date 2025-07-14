@@ -1,0 +1,309 @@
+/* -------------------------------------------------------------------------------------------
+KIPRIS Search System 서치부분 공통적용
+* version 	: 0.1 (2007.1012)
+* author		: Choi, hyo-jeong
+* email		: ppojeong@naver.com
+---------------------------------------------------------------------------------------------*/
+
+body {
+margin:0;
+padding:0;
+
+}
+
+/* 브라우저를 위한 핵 */
+* html body {
+font-size:x-small; /* 윈도우용 인터넷 익스플로러 5에 적용 */
+font-size:small;  /* 기타 웹브라우저에 적용 */
+}
+		
+/* 글로벌 설정 */
+body, div, td, li, caption, p, input, textarea, option, select {
+font-size:small;
+line-height:130%;
+font-family:돋움,Dotum,AppleGothic,sans-serif;
+color:#333;
+}
+ 
+form {margin:0}
+
+input, textarea, option, select {
+font-size:12px;
+color:#666;
+}
+
+textarea, select {
+border:1px solid #7F9DB9;
+}
+
+.input {
+height:16px;
+border:1px solid #7F9DB9;
+}
+
+div, p, ul, li, ol, dl, dd {
+margin:0; 
+padding:0;
+list-style-type:none;
+}
+
+fieldset {
+margin:0; 
+padding:0;
+border:none;
+}
+
+legend {
+display:none;
+}
+
+a:visited {color:#8B008B; text-decoration:none;}
+a:link {color:#333; text-decoration:none;}
+a:active {color:#333; text-decoration:none;}
+a:hover {color:#369; text-decoration:none;}
+
+img {border:0;}
+hr{display:none;}
+h1 {font-size:180%;}
+h2 {font-size:160%;}
+h3 {font-size:140%;}
+h4 {font-size:105%;}
+
+/* 폰트 설정 */
+.f11 {font-size:11px;}
+.f12 {font-size:12px;}
+.fb {font-weight:bold;}
+.f-1 {letter-spacing:-0.07em;}
+.o1 {color:#ff5400;}/* 진오렌지 */
+.o2 {color:#ff9600;}/* 오렌지2 */
+.g1 {color:#bfbfbf;}/* 그레이1 */
+.g2 {color:#5F5F5F;}/* 그레이2 */
+.g3 {color:#2B2B2B;}/* 그레이3 */
+.b {color:#0099B5;}/* 블루 */
+.b2{color:#31599E;}/* 진블루 */
+.brown {color:#945600;}/* 브라운 */
+.u {text-decoration:underline;}
+.mg5 {margin-top:5px;}
+.mg15 {margin-top:15px;}
+
+.date {font-size:10px; color:#666; font-family:tahoma;}  /* 날짜 및 숫자를 위한 설정 */
+
+.vt {vertical-align:top;}
+.vm {vertical-align:middle;}
+
+.tit_blue, .tit_blue a, .tit_blue a:hover {
+color:#336699;
+font-weight:bold;
+text-decoration:none;
+letter-spacing:-0.05em;
+line-height:110%;
+}
+
+.tit_blue a:visited {
+color:#333;
+font-weight:bold;
+text-decoration:none;
+}
+
+.txt_blue, .txt_blue a, .txt_blue a:hover, .txt_blue a:visited {
+color:#0099B5;
+text-decoration:none;
+}
+
+/* 글로벌 퀵메뉴 */
+#quick_navigation{
+display:none;
+}
+
+.inp_submit {
+border:0;  /* 인풋타입 이미지에 보더값 0를 줌 */
+padding:0 0 0 2px;
+}
+
+/* 페이징에 관한 CSS */
+.page_no {
+float:right;
+margin-top:2px;
+}
+
+.page_no_biblio {
+clear:both;
+margin-left:12px;
+margin-top:2px;
+}
+
+.page_no li {
+display:inline;
+}
+
+.page_no_biblio li {
+display:inline;
+}
+
+.paging {
+float:left;
+}
+
+.paging a:active {
+font-size:85%;
+color:#333;
+font-family:tahoma;
+}
+
+.paging a:visited {
+font-size:85%;
+color:#944B95;
+font-family:tahoma;
+}
+
+.paging_this {
+font-size:85%;
+color:#ff5400;
+font-family:tahoma;
+font-weight:bold;
+text-decoration:underline;
+}
+
+.paging a:hover {
+font-size:85%;
+color:#ff5400;
+font-family:tahoma;
+/* font-weight:bold; */
+text-decoration:underline;
+}
+
+/* 페이징에 관한 CSS 끝 */
+
+
+
+/* 공통 테이블에 관한 CSS */
+.table_98 {
+width:98%;
+padding:0;
+}
+
+.table_list_top {
+border-top:2px solid #B7B7B7;
+}
+
+td {
+height:22px;
+}
+
+.td_line_bottom {
+border-bottom:1px solid #BCCADF;
+}
+
+.td_center {
+text-align:center;
+}
+
+.td_left {
+text-align:left;
+padding:0 5px;
+}
+
+.td_none {
+text-indent:-3000px;
+}
+
+.clear {
+clear:both;
+}
+/* 공통 테이블에 관한 CSS 끝 */
+
+/* 안내메세지-팝업용 */
+.guide_box, .guide_box02 {
+margin:100px 0 0 70px;
+padding:0;
+}
+
+.guide_box dt, .guide_box dd, .guide_box02 dt, .guide_box02 dd {
+float:left;
+}
+
+.guide_box dd {
+width:350px;
+margin:10px 0;
+padding:3px 0 6px 6px;
+letter-spacing:-0.07em;
+border-left:1px solid #DDD;
+}
+
+.txt_guide01 {
+padding:30px 0 7px 0;
+color:#0099B5;
+}
+
+/* 안내메세지-페이지용 */
+
+.tit_guide span {
+display:none;
+}
+
+.guide_box02 dd {
+width:450px;
+margin:5px 0;
+padding:0 0 0 15px;
+letter-spacing:-0.07em;
+}
+
+.txt_guide02_02 {
+height:108px;
+padding:20px 0 0 5px;
+color:#369;
+word-break:break-all;
+}
+
+
+
+
+/* 공통으로 사용하는 버튼 모음 */
+.f_right {
+float:right;
+}
+
+.f_left {
+float:left;
+}
+
+.inline {
+display:inline;
+}
+
+.btn_search, .btn_clear, .btn_confirm, .btn_save, .btn_select_ok {
+display:inline;
+display:block;
+height:23px;
+text-indent:-3000px;
+font-size:0px;
+}
+
+.btn_search {
+width:70px; /* 검색 */
+padding:0 2px;
+background:url(../image_08/common/btn/btn_search.gif) no-repeat;
+}
+
+.btn_clear {
+width:71px; /* 초기화 */
+background:url(../image_08/common/btn/btn_clear.gif) no-repeat;
+}
+
+.btn_confirm {
+width:77px; /* 확인 */
+padding:0 2px;
+background:url(../image_08/common/btn/btn_confirm.gif) no-repeat;
+}
+
+.btn_save {
+width:63px; /* 저장하기 */
+padding:0 2px;
+background:url(../image_08/common/btn/btn_save_02.gif) no-repeat;
+}
+
+.btn_select_ok {
+width:99px; /* 선택완료 */
+padding:0 2px;
+background:url(../image_08/common/btn/btn_select_ok.gif) no-repeat;
+}

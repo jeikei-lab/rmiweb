@@ -1,0 +1,201 @@
+/* * Kipris CSS * Designed & UI Development By 박수현 parteno@hotmail.com */
+
+/* default */
+BODY
+{scrollbar-face-color: #ffffff; scrollbar-shadow-color: #B5B2B5; scrollbar-highlight-color: #B5B2B5; scrollbar-3dlight-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #B5B2B5;}
+
+body, td, th, caption, input, textarea, caption, p, option {font-family:돋움, arial, helvetica, sans-serif; font-size:12px; color:#333333;}
+option, select {font-family:돋움, arial; font-size:11px; color:#333333;}
+
+img {border:0;}
+table {border:0;}
+div.scroll {padding: 0px; overflow: hidden;}
+
+.t01 { font-family: 돋움, arial, helvetica, verdana;  padding-top:3px; padding-left:5px; color: #333333; font-weight: bold;} /* 검색우측 서브타이틀 */
+.comt { color: #595959; font-size: 11px; word-spacing: -1; letter-spacing: -1;} /* 탑 select */
+.setpage2 { 
+font-family: arial, helvetica, verdana; 
+font-size: 15px; 
+color: #666666; 
+font-weight: bold;} /* set page */
+
+.bot {padding-top:2px; border-top:1 solid #ffffff; height: 40px; background-color: #EEEAEE; text-align:center;} /* 팝업푸터 */
+.bot1 { padding-top:2px; height: 40px; background-color: #ffffff; text-align:center;} /* 팝업푸터 */
+
+
+/* form */
+.frm {align: absmiddle;}
+
+.form_s1 {width: 95; height: 21; } /* 단순검색 select */
+.form_s2 {width: 400; height: 50; } /* 단순검색 textarea */
+.form_s3 {width: 133; height: 21; } /* 단순검색 inputbox */
+.form_s4 {width: 217; height: 21; } /* 단순검색 inputbox */
+.form_s5 {width: 150; height: 21; } /* 단순검색 inputbox */
+
+.form_o1 {width: 329; height: 34; }
+.form_o2 {width: 459; height: 34; }
+
+.form01_1 {width: 631; height: 60;} /* 검색 텍스트에어리어 */
+.form01 {width: 236; height: 85;} /* 검색우측 텍스트에어리어 */
+.form02 {width: 142; height: 19;} /* 검색항목 select */
+.form03 {width: 110; height: 19;} /* 검색종류 select */
+.form04 {width: 95; height: 19;}  /* 검색구분 select */
+.form04 {width: 95; height: 19;}  /* 검색구분 select */
+.form05 {width: 220; height:260; background-color:#efefef;}  /* 온라인다운로드 textarea-1 */
+.form06 {width: 185; height: 260; background-color:#efefef;}  /* 온라인다운로드 textarea-2 */
+.tf {padding-top:1px; vertical-align: top; text-align: absmiddle;} /* 제목폴더 */
+
+/* link -------------------------------------------------------*/
+a:visited {font-family:돋움; font-size:12px; color:#666666; text-decoration: none;}
+a:link    {font-family:돋움; font-size:12px; color:#333333; text-decoration: none;}
+a:active  {font-family:돋움; font-size:12px; color:#333333; text-decoration: none;}
+a:hover   {font-family:돋움; font-size:12px; color:#1570A9; text-decoration: none;}
+
+a.setpage:link { font-size: 12pt; color : #565656; font-weight:bold; text-decoration : none;}
+a.setpage:visited { font-size: 12pt; color : #565656; font-weight:bold; text-decoration : none;}
+a.setpage:hover { font-size: 12pt; color : #000000; font-weight:bold; text-decoration :none;}
+
+/* link : 탑 메뉴단 */
+a.NavOn:link { font-size: 12px; color : #FF6600; text-decoration : none;}
+a.NavOn:visited { font-size: 12px; color : #FF6600; text-decoration : none;}
+a.NavOn:hover { font-size: 12px; color : #000000; text-decoration : none;}
+
+a.Nav:link { font-size: 12px; color : #565656; text-decoration : none;}
+a.Nav:visited { font-size: 12px; color : #565656; text-decoration : none;}
+a.Nav:hover { font-size: 12px; color : #000000; text-decoration : none;}
+
+/* link : 상세보기 */
+a.NavD:link { font-size: 12pt; color : #565656; text-decoration : none;}
+a.NavD:visited { font-size: 12pt; color : #565656; text-decoration : none;}
+a.NavD:hover { font-size: 12pt; color : #000000; text-decoration : none;}
+
+/* link : 상세보기 */
+a.NavC:link { font-size: 12pt; color : #FF0000; text-decoration : none;}
+a.NavC:visited { font-size: 12pt; color : #FF0000; text-decoration : none;}
+a.NavC:hover { font-size: 12pt; color : #FF0000; text-decoration : none;}
+
+/* link : 입력검색식 */
+a.kpk2:link { font-size: 12px; color : #0085AD; text-decoration : underline;}
+a.kpk2:visited { font-size: 12px; color : #0085AD; text-decoration : underline;}
+a.kpk2:hover { font-size: 12px; color : #000000; text-decoration : underline;}
+
+/* link : 검색단 */
+a.te:link {font-family: arial, helvetica; color : #003E93; text-decoration: underline; word-spacing: -1;}
+a.te:visited {font-family: arial, helvetica; color : #003E93; text-decoration: underline; word-spacing: -1;}
+a.te:hover {font-family: arial, helvetica; color : #000000; text-decoration: underline; word-spacing: -1;}
+
+
+/* link : 검색목록 발명의 명칭*/
+a.te1:link {font-family: arial, helvetica; color : #993300; text-decoration: underline; word-spacing: -1;}
+a.te1:visited {font-family: arial, helvetica; color : #000000; text-decoration: underline; word-spacing: -1;}
+a.te1:hover {font-family: arial, helvetica; color : #000000; text-decoration: underline; word-spacing: -1;}
+
+/* link : 검색목록 제목*/
+a.lt:link { font-family: arial, helvetica; font-weight: bold; color : #60713E; text-decoration: underline;}
+a.lt:visited { font-family: arial, helvetica; font-weight: bold; color : #60713E; text-decoration: underline;}
+a.lt:hover { font-family: arial, helvetica; font-weight: bold; color : #000000; text-decoration: underline;}
+
+/* 리스트폴더 : 하부메뉴 */
+a.lfm:link { color : #003E93; text-decoration : none;}
+a.lfm:visited { color : #003E93; text-decoration : none;}
+a.lfm:hover { color : #003E93; text-decoration : underline;}
+
+/* decoration txt--------------------------*/
+.st3 { word-spacing: -1; padding: 16px;} /* 일반 검색창내 텍스트 */
+.st4 { padding: 10px;}        /* 항목별 검색창내 우측 텍스트 */
+
+.lf {padding-left:3px; padding-top: 3 px; padding-bottom: 4px; vertical-align: top; word-spacing: -1;} /* 모드선택 form 하부사항*/
+
+.t {font-family: arial, helvetica; font-weight: bold; color: #60713E; text-align: center; padding-top: 3px; height: 24px;}                /* 검색목록 제목*/
+
+.s1 {font-family: arial, helvetica; color: #595959; text-align: center; padding-top: 3px; height: 23px; background-color: #ffffff;}   /* 간략정보리스트 결과 : 바탕색 흰색*/
+.s2 {font-family: arial, helvetica; color: #595959; text-align: center; padding-top: 3px; height: 23px; background-color: #f4f4f4;}   /* 간략정보리스트 결과 : 바탕색 회색*/
+.s3 {font-family: arial, helvetica; color: #595959; text-align: left; padding-top: 3px; padding-left: 5px; padding-right: 5px; line-height: 120%;}           /* 간략정보리스트 결과 : 발명의 명칭*/
+.s4 {padding : 10px; line-height: 160%;}
+.click {cursor : hand; background-color: #efefef; height: 21px; padding-top: 2px;}
+.hi {background-color : #dcdfff ; color : 235A8D ; border:0 solid #235A8D;}
+
+.k2 {padding-top : 3px; padding-left : 3px; line-height: 120%; } /* 입력검색식 제목 */
+
+
+
+/* 2007_new */
+.t1 {font-family:돋움; font-size:12px; color:#888888;}
+.t2 {font-family:돋움; font-size:12px; color:#676767;}
+.t3 {font-family:돋움; font-size:11px; color:#747474;}
+.t4    {font-size:11px; color:#333333; text-decoration: none;}
+.t4 A:link    {font-size:11px; color:#333333; text-decoration: none;}
+.t4 A:visited {font-size:11px; color:#333333; text-decoration: none;}
+.t4 A:active  {font-size:11px; color:#333333; text-decoration: none;}
+.t4 A:hover   {font-size:11px; color:#FF5400; text-decoration: none;}
+.t5    {font-size:12px; color:#353535; text-decoration: none; font-weight:bold;}
+.t5 A:link    {font-size:12px; color:#353535; text-decoration: underline; font-weight:bold;}
+.t5 A:visited {font-size:12px; color:#353535; text-decoration: underline; font-weight:bold;}
+.t5 A:active  {font-size:12px; color:#353535; text-decoration: underline; font-weight:bold;}
+.t5 A:hover   {font-size:12px; color:#353535; text-decoration: underline; font-weight:bold;}
+.t6 {font-family:돋움; font-size:10pt; color:#333333; font-weight:bold;}
+.t7    {font-size:12px; color:#333333; text-decoration: none;}
+.t7 A:link    {font-size:12px; color:#333333; text-decoration: none;}
+.t7 A:visited {font-size:12px; color:#666666; text-decoration: none;}
+.t7 A:active  {font-size:12px; color:#333333; text-decoration: none;}
+.t7 A:hover   {font-size:12px; color:#FF5400; text-decoration: underline;}
+.t8 {font-family:돋움; font-size:11pt; color:#065D94; font-weight:bold; letter-spacing:-1px;}
+.t9 {font-family:돋움; font-size:12px; color:#7D7D7D;}
+.t10    {font-size:12px; color:#87A927; text-decoration: none;}
+.t10 A:link    {font-size:12px; color:#87A927; text-decoration: none;}
+.t10 A:visited {font-size:12px; color:#87A927; text-decoration: none;}
+.t10 A:active  {font-size:12px; color:#87A927; text-decoration: none;}
+.t10 A:hover   {font-size:12px; color:#87A927; text-decoration: underline;}
+.t11  {font-size:11px; color:#6F6F6F; text-decoration: none;}
+.t12    {font-size:12px; color:#666666; text-decoration: none;}
+.t12 A:link    {font-size:12px; color:#666666; text-decoration: none;}
+.t12 A:visited {font-size:12px; color:#666666; text-decoration: none;}
+.t12 A:active  {font-size:12px; color:#666666; text-decoration: none;}
+.t12 A:hover   {font-size:12px; color:#945600; text-decoration: none;}
+.t13    {font-size:12px; color:#1570A9; text-decoration: none;}
+.t13 A:link    {font-size:12px; color:#1570A9; text-decoration: none;}
+.t13 A:visited {font-size:12px; color:#1570A9; text-decoration: none;}
+.t13 A:active  {font-size:12px; color:#1570A9; text-decoration: none;}
+.t13 A:hover   {font-size:12px; color:#1570A9; text-decoration: none;}
+.t14    {font-size:12px; color:#333333; text-decoration: none;}
+.t14 A:link    {font-size:12px; color:#1570A9; text-decoration: none;}
+.t14 A:visited {font-size:12px; color:#333333; text-decoration: none;}
+.t14 A:active  {font-size:12px; color:#1570A9; text-decoration: none;}
+.t14 A:hover   {font-size:12px; color:#1570A9; text-decoration: underline;}
+.t15    {font-size:11px; color:#989898; text-decoration: none; letter-spacing:-1px;}
+.t15 A:link    {font-size:11px; color:#989898; text-decoration: none; letter-spacing:-1px;}
+.t15 A:visited {font-size:11px; color:#989898; text-decoration: none; letter-spacing:-1px;}
+.t15 A:active  {font-size:11px; color:#989898; text-decoration: none; letter-spacing:-1px;}
+.t15 A:hover   {font-size:11px; color:#000000; text-decoration: none; letter-spacing:-1px;}
+
+/*일별선택 달력*/
+.c1  {font-size:23px; color:#469CD2; font-family:tahoma; font-weight:bold;}
+.c2_g  {font-size:11px; color:#A1A0A0; font-family:돋움;}
+.c2_r  {font-size:11px; color:#FF6066; font-family:돋움;}
+.c2_b  {font-size:11px; color:#378EC5; font-family:돋움;}
+.c3_g  {font-size:10px; color:#666666; font-family:tahoma; text-decoration:none;}
+.c3_g A:link  {font-size:10px; color:#666666; font-family:tahoma; text-decoration:none;}
+.c3_g A:visited {font-size:10px; color:#666666; font-family:tahoma; text-decoration:none;}
+.c3_g A:active {font-size:10px; color:#666666; font-family:tahoma; text-decoration:none;}
+.c3_g A:hover {font-size:10px; color:#666666; font-family:tahoma; text-decoration:underline;}
+.c3_r  {font-size:10px; color:#FF6066; font-family::tahoma;}
+.c3_r A:link  {font-size:10px; color:#FF6066; font-family:tahoma; text-decoration:none;}
+.c3_r A:visited {font-size:10px; color:#FF6066; font-family:tahoma; text-decoration:none;}
+.c3_r A:active {font-size:10px; color:#FF6066; font-family:tahoma; text-decoration:none;}
+.c3_r A:hover {font-size:10px; color:#FF6066; font-family:tahoma; text-decoration:underline;}
+.c3_b  {font-size:10px; color:#378EC5; font-family::tahoma;}
+.c3_b A:link  {font-size:10px; color:#378EC5; font-family:tahoma; text-decoration:none;}
+.c3_b A:visited {font-size:10px; color:#378EC5; font-family:tahoma; text-decoration:none;}
+.c3_b A:active {font-size:10px; color:#378EC5; font-family:tahoma; text-decoration:none;}
+.c3_b A:hover {font-size:10px; color:#378EC5; font-family:tahoma; text-decoration:underline;}
+.c4 {font-size:10px; color:#02B01A; font-family:tahoma; font-weight:bold; text-decoration:underline;}
+
+.f1 {border:1px solid #7F9DB9; background-color:#FFFFFF; font-family:돋움; font-size:12px; color:#333333;}
+.f2 {border:1px solid #7F9DB9; background-color:#FFFFFF; font-family:돋움; font-size:11px; color:#9BCA18;}
+.f3 {border:1px solid #CACACA;}
+.f4 {border:1px solid #7F9DB9; background-color:#FFFFFF; font-family:돋움; font-size:11px; color:#666666; letter-spacing:-1px; width:135;}
+.f5 {border:1px solid #7F9DB9; background-color:#FFFFFF; font-family:tahoma; font-size:11px; color:#666666;}
+.search_1 {font-family:돋움; font-size:11pt; color:#494949; background-color: #F3F5F5; padding-left:14px; font-weight: bold; letter-spacing:-1px;} 
+.search_2 {border-left:1px solid #E1E1E1; border-right:1px solid #E1E1E1;}
+.popup_scroll     {scrollbar-face-color:#EFEFEF;scrollbar-shadow-color:#B0B0B0;scrollbar-highlight-color:#FFFFFF;scrollbar-3dlight-color:#DFDFDF;scrollbar-darkshadow-color:#B0B0B0;scrollbar-track-color:#FFFFFF;scrollbar-arrow-color:#95BE00;}
